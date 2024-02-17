@@ -1,0 +1,51 @@
+
+.main-div{
+    padding: 0 7%;
+    z-index: 100;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+
+    >.div1, .div3{
+        display: flex;
+        gap: 3rem;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        >a{
+            text-decoration: none;
+            padding: 10px 0;
+        }
+    }
+
+    >.div2{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        >p{
+            font-weight: 300;
+            font-size: 13px;
+            opacity: .6;
+            text-align: center;
+            margin-top: 8px;
+        }
+    }
+
+    .div3{
+        button{
+            text-transform: uppercase;
+            background-color: rgba(165, 42, 42, 0.725);
+            padding: 0px 17px;
+            border: none;
+            outline: none;
+            color: white;
+            border-radius: 33px;
+            letter-spacing: 1.5px;
+            font-size: 12px;
+        }
+    }
+
+}

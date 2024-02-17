@@ -1,0 +1,16 @@
+
+.video-main-div{
+    
+    video{
+        width: 100%;
+        position: relative;
+    }
+ .video-text{
+     font-size: 7rem;
+    text-transform: capitalize;
+    position: absolute;
+    top: 400px;
+    left: 310px;
+    color: white;
+ }
+}
